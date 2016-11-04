@@ -1,14 +1,16 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.homepage', ['ngRoute', 'ui.bootstrap'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/homepage', {
     templateUrl: 'homepage/homepage.html',
-    controller: 'View1Ctrl'
+    controller: 'HomepageCtrl'
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('HomepageCtrl', ['$scope', 'homePageService', function($scope, homePageService) {
+  $scope.slides = homePageService.slides;
+  $scope.active = 0;
 
 }]);

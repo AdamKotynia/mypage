@@ -1,0 +1,26 @@
+$bgDefault      : #000000;
+$bgHighlight    : #ffffff;
+$colDefault     : #ffffff;
+$colHighlight   : #000000;
+
+.navbar-fixed-top {
+  background-color: $bgDefault;
+}
+
+.navbar-brand {
+  color: $colDefault;
+}
+
+.navbar-nav li a {
+  color: $colDefault;
+}
+
+.navbar-nav li a:hover {
+  background-color: $bgHighlight;
+  color: $colHighlight;
+}
+
+.navbar-nav li a:focus {
+  background-color: $bgHighlight;
+  color: $colHighlight;
+}

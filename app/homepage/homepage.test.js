@@ -2,7 +2,12 @@
 
 describe('myApp.homepage module', function() {
 
-  beforeEach(module('myApp.view1'));
+  beforeEach(module('myApp.homepage'));
+
+  var homePageService;
+  beforeEach(inject(function(_homePageService_) {
+    homePageService = _homePageService_;
+  }));
 
   describe('homepage controller', function(){
 
@@ -13,4 +18,8 @@ describe('myApp.homepage module', function() {
     }));
 
   });
+
+  describe('homepage service', function() {
+    var
+  })
 });

@@ -1,0 +1,19 @@
+.navbar-fixed-top {
+  background-color: #000000; }
+
+.navbar-brand {
+  color: #ffffff; }
+
+.navbar-nav li a {
+  color: #ffffff; }
+
+.navbar-nav li a:hover {
+  background-color: #ffffff;
+  color: #000000; }
+
+.navbar-nav li a:focus {
+  background-color: #ffffff;
+  color: #000000; }
+
+body {
+  padding-top: 50px; }
