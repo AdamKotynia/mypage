@@ -1,0 +1,13 @@
+#header-photo {
+  width: 100%; }
+
+#homepic {
+  width: 100%;
+  position: relative; }
+
+#overpic {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  color: white;
+  text-align: center; }

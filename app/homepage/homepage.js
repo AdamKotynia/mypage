@@ -10,7 +10,6 @@ angular.module('myApp.homepage', ['ngRoute', 'ui.bootstrap'])
 }])
 
 .controller('HomepageCtrl', ['$scope', 'homePageService', function($scope, homePageService) {
-  $scope.slides = homePageService.slides;
-  $scope.active = 0;
+
 
 }]);
