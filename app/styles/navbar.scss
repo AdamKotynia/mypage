@@ -11,16 +11,20 @@ $colHighlight   : #000000;
   color: $colDefault;
 }
 
-.navbar-nav li a {
+.navbar-nav li a, .cart {
   color: $colDefault;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover, .cart {
   background-color: $bgHighlight;
   color: $colHighlight;
 }
 
-.navbar-nav li a:focus {
+.navbar-nav li a:focus, .cart {
   background-color: $bgHighlight;
   color: $colHighlight;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: $colDefault;
 }

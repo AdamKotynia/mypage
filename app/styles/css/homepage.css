@@ -17,14 +17,14 @@
   margin-left: 0; }
 
 .homepage-panel {
-  height: 400px;
+  height: 350px;
   text-align: center; }
 
 .homepage-offer {
   margin-top: 20px; }
 
 .piano, .coffee {
-  background-color: beige; }
+  background-color: white; }
 
 .camera {
   background-color: lightgray; }

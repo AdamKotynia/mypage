@@ -4,13 +4,16 @@
 .navbar-brand {
   color: #ffffff; }
 
-.navbar-nav li a {
+.navbar-nav li a, .cart {
   color: #ffffff; }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover, .cart {
   background-color: #ffffff;
   color: #000000; }
 
-.navbar-nav li a:focus {
+.navbar-nav li a:focus, .cart {
   background-color: #ffffff;
   color: #000000; }
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: #ffffff; }

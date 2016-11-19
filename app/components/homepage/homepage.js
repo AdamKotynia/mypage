@@ -4,7 +4,7 @@ angular.module('myApp.homepage', ['ngRoute', 'ui.bootstrap'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/homepage', {
-    templateUrl: 'homepage/homepage.html',
+    templateUrl: 'components/homepage/homepage.html',
     controller: 'HomepageCtrl'
   });
 }])
