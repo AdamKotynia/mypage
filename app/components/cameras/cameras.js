@@ -9,6 +9,7 @@ angular.module('myApp.cameras', ['ngRoute'])
   });
 }])
 
-.controller('CamerasCtrl', [function() {
+.controller('CamerasCtrl',['camerasService', '$scope', function(camerasService, $scope) {
+  this.cameras = camerasService.cameras;
 
 }]);
