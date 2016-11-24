@@ -35,6 +35,6 @@ gulp.task('serve', ['js'], function() {
     });
 
     gulp.watch('app/styles/*.scss', ['sass']);
-    gulp.watch(["app/*.html", "app/*/*.html"]).on('change', browserSync.reload);
-    gulp.watch(['./app/*/*.js', './app/*.js'], ['js']);
+    gulp.watch(["app/*.html", "app/*/*.html", "app/*/*/*.html"]).on('change', browserSync.reload);
+    gulp.watch(['./app/*/*.js','./app/*/*/*.js', './app/*.js'], ['js']);
 });

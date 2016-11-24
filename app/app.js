@@ -6,8 +6,10 @@ angular.module('myApp', [
   'myApp.common',
   'myApp.homepage',
   'myApp.cameras',
-    'myApp.pianos',
-    'myApp.coffee'
+  'myApp.pianos',
+  'myApp.coffee',
+  'myApp.login',
+  'myApp.cart'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
