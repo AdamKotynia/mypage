@@ -9,6 +9,12 @@ angular.module('myApp.pianos', ['ngRoute'])
     });
 }])
 
-.controller('PianosCtrl', ['$scope', function($scope){
+.controller('PianosCtrl', ['$scope', 'dataService', 'cartService', function($scope, dataService, cartService){
+    dataService.async().then(function(d) {
+        $scope.data = d.data;
+    });
+    $scope.add = function(id){
+        cartService.addProduct(id);
+    };
 
 }]);

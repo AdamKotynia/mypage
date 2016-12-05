@@ -23,6 +23,11 @@
 .homepage-panel {
   height: 350px;
   text-align: center;
+  color:black;
+}
+
+.homepage-panel > *:hover {
+  text-decoration: none;
 }
 
 .homepage-offer {
@@ -35,4 +40,8 @@
 
 .camera {
   background-color: lightgray;
+}
+
+.search {
+  margin-top: 8px;
 }

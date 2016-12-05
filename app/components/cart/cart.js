@@ -8,6 +8,10 @@ angular.module('myApp.cart', ['ui.bootstrap'])
     }])
 
 
-    .controller('CartCtrl', ['$scope', function ($scope) {
-
+    .controller('CartCtrl', ['$scope', 'cartService', 'dataService', function ($scope, cartService, dataService) {
+        dataService.async().then(function(d) {
+            $scope.data = d.data;
+        });
+        $scope.cart = cartService.getCart();
+        console.log($scope.cart)
 }]);

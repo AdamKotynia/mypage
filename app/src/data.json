@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "name": "cheap piano",
+    "description": "dis piano generally sucks, buy it if you're poor",
+    "price": "60",
+    "quantity": "5"
+  },
+  {
+    "id": "1",
+    "name": "not so cheap piano",
+    "description": "u can buy this if you have a little bit of self-respect",
+    "price": "150",
+    "quantity": "10"
+  },
+  {
+    "id": "2",
+    "name": "expensive piano",
+    "description": "you can rock the party with this exclusive piano. buying this automatically makes you a good pianist",
+    "price": "600",
+    "quantity": "9"
+  },
+  {
+    "id": "3",
+    "name": "super rare pepe",
+    "description": "BUY THIS AS FAST AS YOU CAN, IT SHOULDNT EVEN BE HERE",
+    "price": "11231231312321",
+    "quantity": 120
+  }
+]

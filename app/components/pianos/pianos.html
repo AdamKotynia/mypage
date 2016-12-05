@@ -1,1 +1,8 @@
-piano test
+<div class="col-xs-8 col-xs-offset-2">
+    <div class="col-xs-4" ng-repeat="item in data">
+        {{item.name}}<br>
+        {{item.price | currency}}
+        <button class="btn btn-primary" ng-click="add(item.id)">Add to cart</button>
+    </div>
+
+</div>
